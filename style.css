@@ -3,3 +3,8 @@
     height: 100wh;
     cursor: pointer;
 }
+
+.btn {
+    display: flex;
+    justify-content: center;
+}

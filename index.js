@@ -1,4 +1,5 @@
 const img = document.getElementById('img-btn')
+const contacts = document.getElementById('btn-contacts')
 
 const randomInteger = (min, max) => {
     let rand = min - 0.5 + Math.random() * (max - min + 1);
@@ -27,4 +28,8 @@ const randomAudio = () => {
 
 img.onclick = () => {
     randomAudio()
+}
+
+contacts.onclick = () => {
+    window.location.href = 'contacts.html'
 }
