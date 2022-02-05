@@ -54,6 +54,36 @@ a {
     border-color: white;
 }
 
+.btn-music {
+    cursor: pointer;
+}
+
+#warning {
+    display: none;
+}
+
+.boo {
+    background-color: pink;
+    width: 200px;
+    height: 20px;
+}
+
+#btn-music {
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: white;
+    border-color: pink;
+}
+
+#btn-music:hover {
+    background-color: pink;
+    transition: all 1s;
+    border-color: white;
+
+}
+
 @media screen and (max-width: 720px) {
     .text {
         width: auto;
